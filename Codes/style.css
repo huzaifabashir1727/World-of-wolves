@@ -1,0 +1,31 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+.navbar
+{
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.hamburger
+{
+    justify-content: space-between;
+}
+.line
+{
+    background-color: black;
+    height: 2px;
+    width: 4px;
+}
+.features
+{
+    margin: 2px 3px 9px 3px;
+}
+.logo
+{
+    height: 29px;
+    width: 30px;
+    margin-bottom: 30px;
+}

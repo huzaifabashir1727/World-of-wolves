@@ -1,0 +1,16 @@
+Elements:
+•Sound of howling
+•Logo
+•Breed
+ 1.Names
+ 2.Info
+•Evolution
+•Behaviour
+ 1.Movements
+ 2.Attack
+ 3.Mating
+ 4.Behaviour with humans
+•Lifespan
+•Intelligence
+Funtions:
+Quiz of wolf
