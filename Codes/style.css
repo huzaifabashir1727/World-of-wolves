@@ -2,12 +2,21 @@ body
 {
     background-color: black;
     color: white;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 20px;
+}
+.container
+{
+    margin-left: 2;
 }
 .navbar
 {
     display: flex;
     border-bottom: 1px solid gray;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    font-family: "Cinzel", serif;
+    font-size: 22px;
+    font-weight: bold;
 }
 .hamburger
 {
@@ -21,11 +30,42 @@ body
 }
 .features
 {
-    margin: 2px 3px 9px 3px;
+    margin: 11px 3px 0px 15px;
 }
 .logo
 {
-    height: 29px;
-    width: 30px;
-    margin-bottom: 30px;
+    height: 45px;
+    width: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.data
+{
+    font-family: "Cinzel", serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.desc
+{
+    display: flex;
+}
+.desc_data
+{
+    margin-top: 0px;
+    width: 1050px;
+}
+.desc_img
+{
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 400px;
+    height: 250px;
+}
+.skeleton
+{
+    margin-top: 0px;
+    margin-right: 20px;
+    width: 370px;
+    height: 200px;
 }
