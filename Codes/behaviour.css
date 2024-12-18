@@ -1,0 +1,60 @@
+.movement
+{
+    display: flex;
+}
+.movement-paragraph
+{
+    width: 900px;
+}
+.movement-img
+{
+    width: 500px;
+    height: 280px;
+    margin-top: 110px;
+    margin-left: 20px; 
+}
+.attack
+{
+    display: flex;
+}
+.attack-paragraph
+{
+    width: 900px;
+}
+.attack-img
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 280px;
+}
+.human
+{
+    display: flex;
+}
+.human-paragraph
+{
+    width: 900px;
+}
+.human-img
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 270px;
+}
+.behaviour-with-human
+{
+    display: flex;
+}
+.behaviour-with-human-paragraph
+{
+    width: 900;
+}
+.behaviour-with-human-img
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 270px;
+}

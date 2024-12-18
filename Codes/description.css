@@ -1,0 +1,23 @@
+.desc
+{
+    display: flex;
+}
+.desc_data
+{
+    margin-top: 0px;
+    width: 1050px;
+}
+.desc_img
+{
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 400px;
+    height: 250px;
+}
+.skeleton
+{
+    margin-top: 0px;
+    margin-right: 20px;
+    width: 370px;
+    height: 200px;
+}
