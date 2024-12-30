@@ -7,7 +7,7 @@ body
 }
 .container
 {
-    margin-left: 2;
+    margin-left: 2px;
 }
 .navbar
 {
@@ -31,6 +31,7 @@ body
 .features
 {
     margin: 11px 3px 0px 15px;
+    cursor: pointer;
 }
 .logo
 {
@@ -39,10 +40,44 @@ body
     margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
+    cursor: pointer;
+    position: relative; /* Ensure it respects the document flow */
+    z-index: 1; /* Place it below other elements */
+    pointer-events: auto; /* Ensure it can still register clicks */
 }
 .data
 {
     font-family: "Cinzel", serif;
     margin-left: 20px;
     margin-right: 20px;
+}
+.howl
+{
+    margin-left: 1000px;
+    border-radius: 40px;
+    height: 45px;
+    width: 50px;
+    margin-bottom: 10px;
+    margin-left: 410px;
+    margin-right: 20px;
+}
+.howl:hover
+{
+    transition: transform 0.1s;
+    cursor: pointer;
+    border-radius: 40px;
+    width: 50px;
+    height: 45px;
+    margin-bottom: 10px;
+    margin-left: 410px;
+    margin-right: 20px;
+}
+.features a
+{
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits the text color from the parent element */
+}
+.features a:hover
+{
+    color: white; /* Optional: Set a specific hover color */
 }

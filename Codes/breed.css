@@ -1,3 +1,15 @@
+.breeds
+{
+    background-color: #101010;
+    border: 1px solid #101010;
+    border-radius: 3px;
+    padding-bottom: 2px;
+    margin-top: -3px;
+    padding-top: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom: 6px;
+}
 .Data
 {
     display: flex;

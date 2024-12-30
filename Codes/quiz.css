@@ -1,0 +1,57 @@
+.form
+{
+    margin-top: 20px;
+    justify-items: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.question
+{
+    background-color: #101010;
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.option
+{
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 15px;
+}
+.result
+{
+    justify-items: center;
+    font-size: 40px;
+}
+.title
+{
+    background-image: url(../Documents/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+}
+.title-text
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 70px;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+button
+{
+    display: flex;
+    padding: 10px 400px 10px 400px;
+    justify-content: center;
+    margin-left: 220px;
+    margin-right: px;
+    background-color: #101010;
+    color: white;
+    border: 1px solid white;
+    font-size: 30px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}

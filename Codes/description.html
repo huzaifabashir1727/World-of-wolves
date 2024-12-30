@@ -10,17 +10,6 @@
     <link rel="stylesheet" href="description.css">
     <title>World of Wolves</title>
     <link rel="icon" type="image/png" href="../Documents/wolf2.png">
-    <style>
-        .features a
-        {
-          text-decoration: none; /* Removes underline */
-          color: inherit; /* Inherits the text color from the parent element */
-        }
-        .features a:hover
-        {
-          color: white; /* Optional: Set a specific hover color */
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -30,13 +19,15 @@
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
-            <a href="description.html"><img src="../Documents/wolf2.png" alt="" class="logo"></a>
-            <div class="features"><a href="behaviour.html">Behaviour</a></div>
-            <div class="features"><a href="breeds.html">Breeds</a></div>
-            <div class="features"><a href="evolution.html">Evolution</a></div>
-            <div class="features"><a href="intelligence.html">Intelligence</a></div>
-            <div class="features"><a href="lifespan.html">Lifespan</a></div>
-            <div class="features"><a href="quiz.html">Quiz</a></div>
+            <img src="../Documents/wolf2.png" alt="Wolf Logo" class="logo">
+            <div class="features behaviour"><a href="behaviour.html">Behaviour</a></div>
+            <div class="features breeds">Breeds</div>
+            <div class="features evolution">Evolution</div>
+            <div class="features intelligence">Intelligence</div>
+            <div class="features lifespan">Lifespan</div>
+            <div class="features quiz">Quiz</div>
+            <img src="../Documents/howl.png" alt="" class="howl">
+            <audio class="howl-audio" src="../Documents/Wolf sound.mp3"></audio>
         </div>
         <div class="data">
             <h1>Wolfs</h1>
@@ -65,5 +56,7 @@
             </div>
         </div>
     </div>
+    <script src="howl.js"></script>
+    <script src="navbar.js"></script>
 </body>
 </html>
