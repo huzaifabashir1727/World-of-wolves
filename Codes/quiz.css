@@ -23,6 +23,7 @@
 {
     justify-items: center;
     font-size: 40px;
+    display: none;
 }
 .title
 {
